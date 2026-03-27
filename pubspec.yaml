@@ -1,0 +1,62 @@
+name: travel_user_app
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.2.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.2.1
+  firebase_core: ^4.5.0
+  firebase_auth: ^6.2.0
+  cloud_firestore: ^6.1.3
+  intl: ^0.20.2
+  pdf: ^3.10.0
+  printing: ^5.11.0
+  path_provider: ^2.0.15
+  speech_to_text: ^7.3.0
+  flutter_tts: ^4.0.0
+  url_launcher: ^6.2.5
+  fl_chart: any
+  shimmer: ^3.0.0
+  google_fonts: ^8.0.2
+  image_picker: ^1.2.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  flutter_launcher_icons: ^0.14.4
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/logo.png
+    - assets/icon.png
+    - assets/bot_icon.png
+    - assets/hero_bg.png
+    - assets/splash1.png
+    - assets/splash2.png
+    - assets/splash3.png
+    - assets/splash4.png
+    - assets/login_bg.png
+    - assets/chatbot_bg.png
+    - assets/plan_hero_bg.png
+    - assets/plan_bg_2.png
+    - assets/plan_bg_3.png
+    - assets/plan_bg_4.png
+    - assets/plan_bg_5.png
+    - assets/admin_bg.png
+    - assets/luxury_landing_bg.png
+    - assets/my_trips_premium_bg.png
+    - assets/luxury_dark_bg.png
+    - assets/attractions/
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/icon.png"
+  min_sdk_android: 21
